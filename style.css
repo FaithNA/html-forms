@@ -1,0 +1,63 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #596d48;
+    --spacing: 20px 20px 20px 40px;
+}
+@font-face{
+    font-family: "myFont";
+    src: url(Norse-Bold.otf);
+}
+button{
+    background-color: var(--primary-color);
+    border: 1px solid gray;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+#log-in{
+    color: var(--primary-color);
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.side{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 65%;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+#title{
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    font-family: "myFont";
+    font-size: 72px;
+}
+.card{
+    background-color: white;
+    filter: drop-shadow(0 2px 4px #333333);
+    padding: var(--spacing);
+}
+main p{
+    padding: var(--spacing);
+}
+label{
+    font-size: 10px;
+}

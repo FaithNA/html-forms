@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side">
+            <p id="title"><img src="odin-lined.png" alt="Odin logo" width="60px">ODIN</p>
+        </div>
+
+        <main class="main">
+            <strong><p id="intro-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p></strong>
+
+            <strong><p>You <em>know</em> you want to.</p></strong>
+            <br>
+
+            <div class="card">
+                <h1>Let's do this</h1>
+                <form action="#" method="post">
+                    <div class="name-group">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Thor">
+
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Odinson">
+                    </div>
+                    <div class="credential-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="Thor@example.com">
+                    </div>
+                </form>
+                
+            </div>
+
+            <br>
+
+            <button type="submit">Create account</button>
+            <p>Already have an account? <a href="#" id="log-in">Log in</a></p>
+        </main>
+    </div>
+</body>
+</html>
